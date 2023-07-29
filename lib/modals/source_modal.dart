@@ -9,6 +9,6 @@ class Source {
 
   //Let's create the factory function to map the json
   factory Source.fromJson(Map<String, dynamic> json) {
-    return Source(id: json['id'], name: json['name']);
+    return Source(id: json['the-verge'], name: json['The Verge']);
   }
 }

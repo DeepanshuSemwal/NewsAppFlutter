@@ -1,16 +1,11 @@
 # news_app
 
-"A new Flutter project."
+"News App built using Flutter."
 
-## Getting Started
+![ss2](https://github.com/DeepanshuSemwal/NewsAppFlutter/assets/92510571/4af4f98a-8eed-4e9a-8703-5c4179fb9ead)
 
-This project is a starting point for a Flutter application.
+![image](https://github.com/DeepanshuSemwal/NewsAppFlutter/assets/92510571/09162938-6b67-4ca4-858d-2dfc46ba4b7d)
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+

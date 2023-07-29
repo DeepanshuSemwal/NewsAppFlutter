@@ -1,13 +1,13 @@
 import 'dart:convert';
 import 'package:http/http.dart' as http;
-import 'package:http/http.dart';
-import '../modals/get_modal.dart';
+import '../modals/artcile_model.dart';
 
 class ApiService {
 
   Future<List<Article>> getArticle() async {
 
     final response = await http.get(Uri.parse("https://newsapi.org/v2/everything?q=bitcoin&apiKey=85940a4d7b23488ba7ecd9e9e7c6533e"));
+    print(response.body.toString());
     if (response.statusCode == 200) {
       Map<String, dynamic> json = jsonDecode(response.body);
       List<dynamic> body = json['articles'];
@@ -19,3 +19,5 @@ class ApiService {
     }
   }
 }
+
+

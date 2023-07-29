@@ -2,7 +2,7 @@
 import 'package:flutter/material.dart';
 
 import '../Screen/article_page.dart';
-import '../modals/get_modal.dart';
+import '../modals/artcile_model.dart';
 
 Widget customListTile(Article article, BuildContext context) {
   return InkWell(
